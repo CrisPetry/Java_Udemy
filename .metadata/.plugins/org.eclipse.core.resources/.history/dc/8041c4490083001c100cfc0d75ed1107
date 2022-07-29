@@ -1,0 +1,28 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Qual o primeiro salário?");
+		String valor1 = teclado.nextLine();
+		
+		System.out.println("Qual o segundo salário?");
+		String valor2 = teclado.nextLine();
+		
+		System.out.println("Qual o terceiro salário?");
+		String valor3 = teclado.nextLine();
+		
+		
+		System.out.println((valor1 + valor2 + valor3));
+		
+		
+		
+		
+		teclado.close();
+	}
+}

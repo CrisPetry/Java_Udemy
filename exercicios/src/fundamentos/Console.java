@@ -1,0 +1,24 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Console {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Informe o nome:");
+		String nome = teclado.nextLine();
+		
+		System.out.print("Informe o sobrenome:");
+		String sobrenome = teclado.nextLine();
+		
+		System.out.print("Informe sua idade:");
+		int idade = teclado.nextInt();
+		
+		System.out.printf("A %s %s tem %d anos de idade", nome, sobrenome, idade);
+		
+		teclado.close();
+	}
+}

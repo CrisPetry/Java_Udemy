@@ -1,0 +1,25 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		String valor1 = JOptionPane.showInputDialog(teclado);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		teclado.close();
+	}
+}

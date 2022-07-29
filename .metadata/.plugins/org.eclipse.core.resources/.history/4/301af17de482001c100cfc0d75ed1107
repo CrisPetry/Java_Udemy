@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class Temperatura {
+
+	public static void main(String[] args) {
+		
+		double F = 109;
+		final int menos32 = 32;
+		final int A = 5;
+		final int B = 9;
+		double C;
+		
+		C = (F - menos32) * A/B;
+		
+		System.out.println("A temperatura em Cº é: " + C);
+		
+	}
+}

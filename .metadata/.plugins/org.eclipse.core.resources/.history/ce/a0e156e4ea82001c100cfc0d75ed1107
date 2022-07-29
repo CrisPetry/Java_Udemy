@@ -1,0 +1,20 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+		
+		
+		byte AnosDeEmpresa = 23;
+		short numeroDeVoos = 543;
+		int id = 56789;
+		long pontosAcumulados = 3134845223L;
+		
+		float salario = 22.55f;
+		double vendasAcumuladas = 2991797103.01;
+		
+		boolean estaDeFerias = false;
+		
+		char status = 'S';
+	}
+}

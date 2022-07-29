@@ -1,0 +1,21 @@
+package fundamentos;
+
+public class DesafioOperadorAritmetico {
+
+	public static void main(String[] args) {
+		
+		/*int a = 3 * 4;
+		int b = (int) Math.pow(a, 2);
+		
+		System.out.println(a);
+		System.out.println(b);*/
+		
+		int a = 6; 
+		int b = 3 + 2;
+		int c = 3 * 2; 
+		
+		int primeiraSoma = (a * b);
+		
+		System.out.println(primeiraSoma);
+	}
+}
